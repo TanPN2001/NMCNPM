@@ -1,0 +1,229 @@
+.userInfor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 79%;
+    height: 26%;
+    background: #FFFFFF;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 3.3%;
+    margin-top: 1%;
+    }
+    #Avartar{
+        display: flex;
+        position: relative;
+        height: 80%;
+        left: 1%;
+        top: 1%;
+        background: #F5F5F5;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 50%;
+    }
+    #InsideAvt{
+        border-radius: 50%;
+        height: auto;
+        width: 100%;
+    }
+    .line{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        height: 95%;
+        width: 82%;
+        left: 1%;
+        top: 1%;
+    }
+    .line1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 98%;
+        height: 25%;
+    }
+    .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    position: relative;
+    width: 35%;
+    height: 100%;
+    
+    }
+    .fullName{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vw;
+    color: #22242C;
+    }
+    .tag{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 25%;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9vw;
+    color: #8E8EA1;
+    }
+    .logOut{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        width: 10%;
+        height: 80%;
+        background: #6160DC;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 40px;
+        cursor: pointer;
+        margin-top: -7%;
+    }
+    .LogOutimg{
+        display: flex;
+        position: relative;
+        order: 2;
+        width: 20%;
+        height: 40%;
+    }
+    .insideLogOut{
+        display: flex;
+        position: relative;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1vw;
+        /* identical to box height */
+        
+        color: #ffffff;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .line2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+        width: 98%;
+        height: 27%;
+    }
+    .idDivision{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        width: 30%;
+        height: 78%;
+    
+    }
+    .emailDivision{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        width: 30%;
+        height: 78%;
+    }
+    .phoneDivision{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        position: relative;
+        width: 30%;
+        height: 78%;
+    }
+    .USdetail{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 100%;
+    }
+    .titleOfInfor{
+        display: flex;
+        position: relative;
+        width: 60%;
+        height: 50%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8vw;
+        color: #8E8EA1;
+        order: 1;
+    }
+    .detail{
+        display: flex;
+        position: relative;
+        width: 50%;
+        height: 50%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1vw;
+        color: #202020;
+        order: 2;
+    }
+    .changePass{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        width: 20%;
+        height: 80%;
+        background: #6160DC;
+        border-radius: 40px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        cursor: pointer;
+    }
+    .insideChangePass{
+        display: flex;
+        position: relative;
+        align-self: center;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1vw;
+        /* identical to box height */
+        color: #ffffff;
+        width: 80%;
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: 5%;
+    }
+    #changepass{
+        display: flex;
+        position: relative;
+        order: 2;
+        width: 20%;
+        height: 40%;
+    }
+    .image{
+        display: flex;
+        width: 20%;
+        height: 100%;
+    }

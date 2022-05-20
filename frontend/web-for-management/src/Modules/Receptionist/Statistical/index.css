@@ -1,0 +1,50 @@
+.Chart {
+    position: relative;
+    margin: 100px 0px 0px 100px;
+}
+
+.timesup {
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.baothongke {
+    position: absolute;
+    border-radius: 40px;
+    width: 1520px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+input {
+    font-size: 17px;
+}
+
+#tiennapbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 40px;
+    width: 168px;
+    height: 48px;
+    margin-left: 333px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #6160DC;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    cursor: pointer;
+}

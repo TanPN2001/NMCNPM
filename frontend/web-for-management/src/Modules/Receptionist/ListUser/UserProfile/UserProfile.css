@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+.userprofile-popsup-long{
+z-index: 2;
+position: fixed;
+top: calc(50%-745px/2);
+left: calc(50%-1098px/2);
+width: 1098px;
+height: 745px;
+background: #FFFFFF;
+border-radius: 40px;
+display: flex;
+border: solid;
+flex-direction: column;
+}
+.header-userprofile-long{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #22242C;
+    height: 47px;
+    margin-top: 33px;
+    margin-left: 7%;
+    margin-bottom: 27px;
+}
+.content-userprofile-long{
+    background: #FBF3F3;
+    width: 95%;
+    height: 620px;
+    border-radius: 40px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.row-userprofile-long{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.col-userprofile-long{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: 1% 4%;
+}
+.col-userprofile-long>label{
+    font-family: Inter;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #8E8EA1;
+}
+.col-userprofile-long>input{
+    height: 60%;
+border: 1px solid #8E8EA1;
+box-sizing: border-box;
+border-radius: 40px;
+padding-left: 10%;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #22242C;
+
+}
+ .col-user-profile-input{
+    height: 60%;
+border: 1px solid #8E8EA1;
+box-sizing: border-box;
+border-radius: 40px;
+padding-left: 10%;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #22242C;
+
+}
+#button-row-long{
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+.button-profile-long{
+width: 158px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+background: #6160DC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+cursor: pointer;
+margin-inline: 15px;
+}
+.button-profile-long:hover{
+    background-color: #8E8EA1;
+}

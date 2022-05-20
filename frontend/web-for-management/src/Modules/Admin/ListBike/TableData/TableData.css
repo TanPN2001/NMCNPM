@@ -1,0 +1,63 @@
+#header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.dropdown {
+    margin-top: 59px;
+    margin-left: 1100px;
+    width: 20rem;
+    position: absolute;
+}
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-select {
+    z-index: 1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: solid #6160DC;
+}
+.dropdown-list {
+    z-index: 2;
+    border-radius: 20px;
+    background-color:#6160DC; 
+    position: absolute ;  
+    top: 110%;
+    left: 0;
+    right: 0;
+    opacity: 0; 
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.dropdown-list-item:hover {
+    background-color: #FFFFFF;
+    color: black;
+    opacity: 0.6;
+}
+.dropdown-list-item {
+    z-index: 3;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.goicon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.contenttable {
+    z-index: 1;
+}

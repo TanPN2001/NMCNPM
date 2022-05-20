@@ -1,0 +1,43 @@
+#addbutton-ofaddstation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 40px;
+    width: 226px;
+    height: 60px;
+    background-color: #6160DC;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#savebutton-ofaddlocation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 40px;
+    width: 226px;
+    height: 60px;
+    background-color: #6160DC;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    cursor: pointer;
+    margin-left: 180px;
+    margin-top: 0px;
+}

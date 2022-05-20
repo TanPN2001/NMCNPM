@@ -1,0 +1,74 @@
+.Bar1 {
+    position: absolute;
+    width: 1497px;
+    height: 92px;
+    top: 42px;
+    left: calc(50% - 1497px/2 + 167.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* White */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 40px;
+}
+
+.Bar1 .SearchBar {
+    display: flex;
+    margin-left: 30px;
+    height: 60px;
+    width: 1233px;
+    left: 409px;
+    border-radius: 40px;
+    background-color: #F5F5F5;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.Bar1 .input {
+    border: none;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+    width: 80%;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+}
+
+.Bar1 .Search {
+    position: relative;
+    margin-left: 36px;
+    height: 24px;
+    width: 24px;
+}
+
+.Bar1 .button11 {
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 40px;
+    width: 168px;
+    height: 48px;
+    margin-left: 43px;
+    background-color: #6160DC;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.Bar1 .Filter {
+    margin-left: 10px;
+}

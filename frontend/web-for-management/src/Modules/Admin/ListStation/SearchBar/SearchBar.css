@@ -1,0 +1,71 @@
+.Dung_NA_SearchBike{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Dung_NA_Bao{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 80%;
+    border-radius: 40px;
+    background-color: #F5F5F5;
+    align-self: center;
+}
+.Dung_NA_Searchic{
+    position: relative;
+    display: flex;
+    margin-left: 3%;
+    height: 50%;
+    align-self: center;
+}
+.Dung_NA_Searchimg{
+    height: 100%;
+    width: auto;
+}
+.Dung_NA_input{
+    border: none;
+    margin-left: 2%;
+    background-color: #F5F5F5;
+    width: 80%;
+    font-family: Inter;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+}
+.Dung_NA_NewCate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    text-decoration: none;
+    align-self: center;
+    border-radius: 40px;
+    width: 11%;
+    height: 70%;
+    margin-left: 1%;
+    background-color: #6160DC;
+    font-family: Inter;
+    color: #FFFFFF;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    cursor: pointer;
+}
+.Dung_NA_NewCate:hover{
+    background-color: #3939e0;
+}

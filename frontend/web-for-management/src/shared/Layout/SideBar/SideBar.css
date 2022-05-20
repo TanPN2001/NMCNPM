@@ -1,0 +1,181 @@
+#MenuBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    position: absolute;
+    width: 17.5%;
+    height: 70%;
+    border-radius: 30px;
+    background: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-bottom-style: hidden;
+    margin-left: 1%;
+    margin-top: 1%;
+    z-index: 0;
+}
+
+.logo {
+    display: flex;
+    order: 1;
+    justify-content: center;
+
+    position: relative;
+    width: 50%;
+    height: 15%;
+    align-self: center;
+}
+
+.List {
+    order: 2;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 63%;
+    height: 60%;
+    align-self: center;
+}
+
+.seButton {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    cursor: pointer;
+
+    position: relative;
+    width: 100%;
+    height: 14%;
+    align-self: center;
+    box-sizing: border-box;
+    /* Shadow */
+
+    filter: drop-shadow(0px 20px 50px rgba(191, 21, 108, 0.05));
+    border-radius: 20px;
+    background-color: #6160DC;
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    cursor: pointer;
+
+    position: relative;
+    width: 100%;
+    height: 14%;
+    align-self: center;
+    box-sizing: border-box;
+    /* Shadow */
+
+    filter: drop-shadow(0px 20px 50px rgba(191, 21, 108, 0.05));
+    border-radius: 20px;
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.seIcon {
+    /* Vector */
+
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 20%;
+    height: 50%;
+    margin-left: 10%;
+}
+
+.icon {
+    /* Vector */
+    order: 1;
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: 60%;
+    align-self: center;
+    margin-left: 10%;
+}
+
+.titleOfSebutton {
+    display: flex;
+    position: relative;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    /* identical to box height */
+    align-self: center;
+
+    color: #ffffff;
+
+
+    /* Inside Auto Layout */
+    margin-left: 5%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.titleOfButton {
+    /* Dashboard */
+    display: flex;
+    position: relative;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    /* identical to box height */
+    align-self: center;
+    color: #8E8EA1;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 5%;
+}
+
+/* 
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-left: 4%;
+    margin-top: 6%;
+    } */
+
+#NewmemberSideBar {
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 48px;
+    background-color: #6160DC;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}

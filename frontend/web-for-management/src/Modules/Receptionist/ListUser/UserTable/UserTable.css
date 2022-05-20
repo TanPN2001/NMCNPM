@@ -1,0 +1,10 @@
+.contenttable .avatar1 {
+    margin-right: 20px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    position: initial;
+}
+.infor {
+    display: flex;
+}

@@ -1,0 +1,76 @@
+.Dung_NA_AddCategory{
+    z-index: 2;
+    position: fixed;
+    width: 50%;
+    height: 700px; 
+    /* left: calc(50% - 1497px/2 );
+    top: calc(50% - 749px/2 ); */
+    border-radius: 40px;
+    border: 0.5px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.Dung_NA_TitleOfAddCateScr{
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.Dung_NA_AddInforOfCate{
+    display: flex;
+    font-family: Inter;
+    flex-direction: row;
+    height: 8%;
+    width: 90%;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.Dung_NA_LabelOfAddCate{
+    display: flex;
+    width: 15%;
+    margin-left: 3%;
+}
+.Dung_NA_InputOfAddCate{
+    display: flex;
+    height: 100%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.Dung_NA_AddDescriptionOfCate{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+#Dung_NA_AddDescriptionOfCateLabel{
+    display: flex;
+    font-family: Inter;
+    font-weight: 600;
+    width: 15%;
+    margin-left: 3%;
+}
+#Dung_NA_AddDescriptionOfCateInput{
+    display: flex;
+    height: 100%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    width: 80%;
+}
+#Dung_NA_AddCateButton{
+    display: flex;
+    width: 20%;
+    align-self: center;
+    margin-top: 10%;
+}
+#Dung_NA_XButton{
+    display: flex;
+    align-self: center;
+    margin-top: 3%;
+}
